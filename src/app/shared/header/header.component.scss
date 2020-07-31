@@ -1,0 +1,26 @@
+@import 'bwm-colors';
+
+.navbar {
+  .navbar-brand {
+    font-size: 24px;
+    margin-right: 30px;
+    letter-spacing: 1px;
+    color: $main-red-color;
+    font-weight: bold;
+  }
+
+  .nav-item {
+    font-size: 16px;
+  }
+  .bwm-btn-main{
+    border-color: $main-red-color;
+    color: $main-red-color;
+
+    &:hover, &:focus, &:active {
+      background-color: $main-red-color;
+      border-color: $main-red-color;
+      color: #fff;
+      box-shadow: none;
+    }
+  }
+}

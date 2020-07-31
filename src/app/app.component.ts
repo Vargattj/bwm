@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
 
+
 @Component({
-  selector: 'app-root',
+  selector: 'app-bwm',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'bwm';
+  public counter = 0;
+
+  public increment(event: any, incrementor: number): void {
+    this.counter += incrementor;
+  }
 }
